@@ -1,0 +1,106 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab:wght@600&display=swap');
+*
+{
+  margin: 0;
+  padding:0;
+  box-sizing:0;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+body
+
+{
+  width:100%;
+  height:100%;
+  position: relative;
+ background:url(bk.jpg);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height:90vh;
+
+  
+}
+
+
+.container
+{
+    
+  width:400px;
+  height:600px;
+  background-color:#ffff;
+  border-radius:15px;
+  box-shadow: 4px 4px 30px ;
+  padding:20px;
+  overflow: scroll;
+
+}
+
+.container form
+{
+  width: 100%;
+  border: 5px solid;
+  border-radius: 1px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container form input
+{
+    border:none;
+    outline:none;
+    box-shadow:none;
+    width:100%;
+    font-size:16px;
+    font-weight:600;
+    padding: 8px 10px;
+
+}
+.container form i
+{
+   padding-left: 10px;
+
+}
+.product
+
+{
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+ padding-bottom: 15px;
+
+}
+.product img
+
+{
+ width: 80px;
+ height: 110px;
+ object-fit: cover;
+ border-radius: 5px;
+
+}
+.product .p-details
+{
+   padding-left:15px;
+
+}
+
+
+
+.product .p-details h2
+{
+ font-size: 20px;
+ color: #000000;
+
+}
+.product .p-details h3
+{
+  font-size: 18px;
+
+}
